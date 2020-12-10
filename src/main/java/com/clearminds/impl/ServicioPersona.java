@@ -5,18 +5,21 @@ import com.clearminds.model.Persona;
 public class ServicioPersona implements com.clearminds.interfaces.ServicioPersona {
 
 	public boolean insertar(Persona persona) {
-		// TODO Auto-generated method stub
-		return false;
+		System.out.println("Insertando persona en base de datos");
+		persona.toString();
+		return true;
 	}
 
 	public boolean actualizar(Persona persona) {
-		// TODO Auto-generated method stub
-		return false;
+		System.out.println("Actualizando persona en base de datos");
+		persona.toString();
+		return true;
 	}
 
 	public boolean eliminar(Persona persona) {
-		// TODO Auto-generated method stub
-		return false;
+		System.out.println("Eliminando persona en base de datos");
+		persona.toString();
+		return true;
 	}
 
 }
