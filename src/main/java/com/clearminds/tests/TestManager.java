@@ -16,7 +16,6 @@ public class TestManager {
 			e.printStackTrace();
 			e.getMessage();
 		}
-		
 
 	}
 }
