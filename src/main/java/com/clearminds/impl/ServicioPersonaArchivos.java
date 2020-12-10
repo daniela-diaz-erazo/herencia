@@ -1,23 +1,24 @@
 package com.clearminds.impl;
 
+import com.clearminds.interfaces.ServicioPersona;
 import com.clearminds.model.Persona;
 
-public class ServicioPersona implements com.clearminds.interfaces.ServicioPersona {
+public class ServicioPersonaArchivos implements ServicioPersona {
 
 	public boolean insertar(Persona persona) {
-		System.out.println("Insertando persona en base de datos");
+		System.out.println("Insertando persona en un archivo");
 		persona.toString();
 		return true;
 	}
 
 	public boolean actualizar(Persona persona) {
-		System.out.println("Actualizando persona en base de datos");
+		System.out.println("Actualizando persona en un archivo");
 		persona.toString();
 		return true;
 	}
 
 	public boolean eliminar(Persona persona) {
-		System.out.println("Eliminando persona en base de datos");
+		System.out.println("Eliminando persona en un archivo");
 		persona.toString();
 		return true;
 	}
